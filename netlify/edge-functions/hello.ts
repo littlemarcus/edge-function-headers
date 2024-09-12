@@ -1,6 +1,4 @@
-const helloFunction = () => new Response("Hello, World!", {
-    headers: { "x-nf-edge-functions": "hello" }
-  });
+const helloFunction = () => new Response("Hello world");
 
 export default helloFunction;
 
