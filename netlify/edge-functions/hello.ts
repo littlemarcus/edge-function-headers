@@ -3,3 +3,5 @@ const helloFunction = () => new Response("Hello, World!", {
   });
 
 export default helloFunction;
+
+export const config = {path: "/hello"};
